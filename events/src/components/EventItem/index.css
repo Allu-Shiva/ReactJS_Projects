@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.event-item {
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+}
+.event-img {
+  width: 350px;
+}
+.location {
+  font-size: 13px;
+}
+.listBtn {
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+}

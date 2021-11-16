@@ -1,0 +1,8 @@
+/* Write your CSS code here */
+.blogListContainer {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}

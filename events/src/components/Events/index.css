@@ -1,0 +1,84 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+.main-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 0;
+}
+.bg-container {
+  background-color: #3a4b63;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  padding: 30px;
+  /* border: 5px solid red; */
+}
+.event-item-container {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 750px;
+  /* border: 5px solid orange; */
+}
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  padding-top: 50px;
+  /* border: 5px solid green; */
+}
+.initial-text {
+  color: #64748b;
+  font-weight: bold;
+  font-size: 20px;
+}
+.yet-to-register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  /* border: 5px solid green; */
+  padding: 30px;
+  text-align: center;
+}
+.yet-to-register-img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+.description {
+  color: #64748b;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.registerBtn {
+  background-color: #0967d2;
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+  color: white;
+  align-self: stretch;
+  margin-top: 30px;
+  outline: none;
+  cursor: pointer;
+}
+.registered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* border: 5px solid red; */
+  flex-grow: 1;
+}
+.registered-img {
+  width: 100px;
+}
+.description-registered {
+  color: #323f4b;
+}

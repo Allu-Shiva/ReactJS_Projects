@@ -1,0 +1,35 @@
+/* Write your code here. */
+.listItem {
+  border: 1px solid #d7dae6;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  width: 500px;
+}
+.questionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.questionText {
+  font-size: 18px;
+  color: #52606d;
+  width: 90%;
+}
+.btn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.hr-line {
+  border-color: #e4e7eb;
+}
+.answerText {
+  color: #9aa5b1;
+}
+@media (max-width: 768px) {
+  .listItem {
+    width: 250px;
+  }
+}
