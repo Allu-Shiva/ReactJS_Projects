@@ -1,0 +1,53 @@
+/* Write your code here. */
+.bgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 20px;
+  margin-right: 10px;
+}
+.heading {
+  color: #0f172a;
+}
+.blueNfn {
+  background-color: #0b69ff;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.successNfn {
+  background-color: #2dca73;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.warningNfn {
+  background-color: #ffb800;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.dngNfn {
+  background-color: #ff0b37;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 400px;
+}

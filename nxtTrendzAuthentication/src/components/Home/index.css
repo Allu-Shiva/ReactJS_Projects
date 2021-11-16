@@ -1,0 +1,52 @@
+/* Write your CSS code here */
+.shopnow-btn {
+  border: 0px;
+  width: 110px;
+  height: 35px;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.clothes-img {
+  width: 500px;
+}
+.content {
+  width: 40%;
+}
+.heading {
+  color: #1e293b;
+}
+.description {
+  color: #64748b;
+}
+.clothes-img-sm {
+  display: none;
+}
+@media (max-width: 768px) {
+  .home-container {
+    padding-top: 10px;
+  }
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .clothes-img {
+    display: none;
+  }
+  .clothes-img-sm {
+    display: block;
+    width: 150px;
+  }
+}
