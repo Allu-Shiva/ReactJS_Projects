@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.bgContainer {
+  background-color: #93c5fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+.heading {
+  color: #323f4b;
+}
+.selectContainer {
+  padding: 10px;
+  width: 180px;
+  border-color: #cbd2d9;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #323f4b;
+  font-weight: bold;
+  outline: none;
+}
+.result {
+  color: #1e293b;
+}
