@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.btn {
+  margin-right: 15px;
+  color: #7b8794;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  background-color: transparent;
+}
+.hr-line {
+  border: 1px solid #dfe2e5;
+}
+.highlightTab {
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 16px;
+}
+.highlightLine {
+  border: 1px solid #2563eb;
+}

@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.appImage {
+  width: 50px;
+}
+.appCard {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1e293b;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+}
+@media (max-width: 768px) {
+  .appCard {
+    width: 35%;
+    height: 35%;
+    text-align: center;
+  }
+  .appImage {
+    width: 35%;
+  }
+}
