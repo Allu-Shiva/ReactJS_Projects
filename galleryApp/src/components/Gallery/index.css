@@ -1,0 +1,23 @@
+/* Write your code here. */
+.bgContainer {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+
+.selectImage {
+  width: 80%;
+  height: 60vh;
+}
+.title {
+  color: #1e293b;
+}
+.description {
+  color: #64748b;
+}
+.thumbnailContainer {
+  padding-left: 0px;
+  list-style: none;
+  display: flex;
+}

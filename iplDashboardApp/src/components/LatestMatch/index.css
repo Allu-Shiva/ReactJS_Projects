@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.latestMatchContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  width: 94%;
+}
+.combContainer {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.con-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  justify-content: space-around;
+}
+.con-2 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  align-items: flex-end;
+  font-size: 12px;
+}
+.competingLogo {
+  width: 200px;
+}
+.title {
+  font-weight: bold;
+  font-size: 18px;
+}
+.teamName {
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  .latestMatchContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .combContainer {
+    width: 100%;
+    padding: 10px;
+  }
+  .con-1 {
+    font-size: 13px;
+  }
+  .competingLogo {
+    width: 70px;
+  }
+  .con-2 {
+    border-top: 2px solid #475569;
+    margin-top: 20px;
+    width: 100%;
+    align-items: flex-start;
+    height: 200px;
+    padding: 10px;
+  }
+  .title {
+    font-size: 14px;
+  }
+}

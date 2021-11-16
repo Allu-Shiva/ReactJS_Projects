@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.repository-item {
+  padding: 20px;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.avatar {
+  width: 100px;
+  margin: 10px;
+}
+.title {
+  color: #e73959;
+  font-weight: bold;
+}
+.details-container {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.detail-img {
+  width: 12px;
+  margin-right: 5px;
+}
+.details-text {
+  font-size: 12px;
+  color: #1e293b;
+}

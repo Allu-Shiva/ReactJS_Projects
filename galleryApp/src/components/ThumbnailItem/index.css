@@ -1,0 +1,14 @@
+/* Write your code here. */
+.thumbnail {
+  margin-right: 15px;
+}
+.opaque {
+  opacity: 0.5;
+}
+
+.btn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
