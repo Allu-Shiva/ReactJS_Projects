@@ -1,0 +1,157 @@
+/* Write your CSS here */
+.pid-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  max-width: 1110px;
+}
+.loader {
+  align-self: center;
+}
+.product-item-container {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .product-item-container {
+    flex-direction: column;
+  }
+}
+.product-img {
+  width: 40%;
+  border-radius: 10px;
+  margin-bottom: 45px;
+}
+@media (max-width: 768px) {
+  .product-img {
+    width: 100%;
+  }
+}
+.content-container {
+  width: 35%;
+  margin-left: 30px;
+}
+@media (max-width: 768px) {
+  .content-container {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+.title {
+  color: #475569;
+  margin-top: 0px;
+  font-size: 33px;
+}
+.price {
+  margin-top: 20px;
+}
+.reviews-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.rating-box {
+  background-color: #3b82f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.star-img {
+  width: 20px;
+  margin-left: 5px;
+}
+.reviews-text {
+  color: #12022f;
+}
+.description {
+  color: #616e7c;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.details {
+  color: #12022f;
+  font-weight: bold;
+}
+.hr-line {
+  border: 1px solid #cbced2;
+}
+.stock-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+.count-text {
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 0px;
+}
+.inc-dec-btn {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+  font-size: 14px;
+  margin: 0px;
+}
+.add-to-cart-btn {
+  margin-top: 20px;
+  background-color: #3b82f6;
+  padding: 5px;
+  border: 0px;
+  border-radius: 5px;
+  height: 40px;
+  width: 130px;
+  color: white;
+}
+.container-2 {
+  margin-top: 80px;
+}
+.similar-pro-container {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-heading {
+  color: #171f46;
+}
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.error-img {
+  width: 500px;
+}
+.failure-heading {
+  color: #12022f;
+}
+.continue-shopping-btn {
+  background-color: #3b82f6;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+.span-container {
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
