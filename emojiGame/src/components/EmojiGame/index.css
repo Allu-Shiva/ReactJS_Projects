@@ -1,0 +1,25 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+}
+.bgContainer {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  background-size: cover;
+  min-height: 100vh;
+}
+.cardContainer {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.emojiContainer {
+  margin-top: 30px;
+  align-self: center;
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

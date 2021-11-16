@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.destinationImg {
+  width: 150px;
+}
+.destDescription {
+  font-size: 12px;
+  color: #0f172a;
+  width: 150px;
+}
+.list-item {
+  margin-top: 20px;
+}

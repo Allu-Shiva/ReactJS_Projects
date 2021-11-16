@@ -1,0 +1,24 @@
+/* Write your code here. */
+.listItem {
+  background-color: #fbc7d470;
+  border: 1px solid #ffffff50;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  outline: none;
+}
+.emojiImg {
+  width: 100px;
+}
+.Btn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
