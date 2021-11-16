@@ -1,0 +1,81 @@
+/* .color-1 {
+  background-color: #7683cb;
+} */
+.color-2 {
+  background-color: #f59e0b;
+}
+.color-3 {
+  background-color: #10b981;
+}
+.color-4 {
+  background-color: #f97316;
+}
+.color-5 {
+  background-color: #14b8a6;
+}
+.color-6 {
+  background-color: #b91c1c;
+}
+.color-7 {
+  background-color: #0ea5e9;
+}
+
+.listItem {
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  min-width: 250px;
+}
+.profilePicContainer {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 80px;
+  margin-right: 10px;
+}
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+}
+.listText {
+  margin: 2px;
+}
+.delContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.delBtn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.deleteIcon {
+  width: 20px;
+}
+.innerListContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.stars {
+  width: 100px;
+}
+@media (max-width: 768px) {
+  .listItem {
+    min-width: 0px;
+    width: 100%;
+    margin-right: 0px;
+  }
+}

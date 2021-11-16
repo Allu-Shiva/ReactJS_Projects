@@ -1,0 +1,166 @@
+.bgContainer {
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.appLogo {
+  width: 120px;
+}
+.card-1 {
+  padding: 40px;
+  width: 80%;
+  background-color: #5763a5;
+  border-radius: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #454f84;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  align-self: center;
+}
+.heading {
+  color: white;
+}
+.websiteLogoContainer {
+  background-color: #f8fafc;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.websiteLogo {
+  width: 20px;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  align-self: stretch;
+}
+.userInput {
+  height: 35px;
+  border-left: 2px solid #c3caea;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px;
+  outline: none;
+  width: 100%;
+}
+.addBtn {
+  background-color: #0b69ff;
+  border: 0px;
+  padding: 5px;
+  width: 70px;
+  height: 35px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  align-self: flex-end;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.pmLogo {
+  width: 30vw;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.yourPasswordSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-2Container {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.title-2 {
+  font-size: 18px;
+  padding-right: 10px;
+}
+.count {
+  background-color: transparent;
+  border: 1px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+.searchContainer {
+  width: 200px;
+}
+.hr-line {
+  color: #9ba9eb;
+  width: 100%;
+}
+.showPassContainer {
+  display: flex;
+  align-items: center;
+  color: white;
+  align-self: flex-end;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.card-2 {
+  flex-direction: column;
+}
+.historyContainer {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .bgContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .card-1 {
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .form {
+    width: 100%;
+    order: 1;
+  }
+  .pmLogo {
+    width: 200px;
+    margin-bottom: 15px;
+  }
+  .title-2 {
+    font-size: 14px;
+    padding-right: 2px;
+  }
+  .title-2Container {
+    margin-right: 2px;
+  }
+}

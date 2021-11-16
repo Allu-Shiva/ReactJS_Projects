@@ -1,0 +1,15 @@
+.noPassImg {
+  width: 400px;
+}
+.noPassContainer {
+  text-align: center;
+}
+.noPassText {
+  color: white;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .noPassImg {
+    width: 200px;
+  }
+}
