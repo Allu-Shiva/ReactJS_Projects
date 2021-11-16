@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.listItem {
+  border: 1px solid #b5b7c4;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 21vw;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  color: #171f46;
+  font-weight: bold;
+}
+.starBtn {
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.date {
+  color: #b5b7c4;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .listItem {
+    width: 100%;
+    margin-right: 0px;
+  }
+}

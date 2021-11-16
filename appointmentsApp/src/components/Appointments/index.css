@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.bgContainer {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+.card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 80%;
+}
+.main-heading {
+  color: #171f46;
+}
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+.labelText {
+  color: #b5b7c4;
+  margin-bottom: 10px;
+}
+.userInput {
+  color: #171f46;
+  border: 1px solid #b5b7c4;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  outline: none;
+}
+.addBtn {
+  background-color: #8b5cf6;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  width: 30%;
+}
+.hr-line {
+  border: 1px solid #b5b7c4;
+}
+.miniContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.mini-heading {
+  color: #171f46;
+  font-size: 18px;
+}
+.starred {
+  color: #b5b7c4;
+  background-color: transparent;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  padding: 3px;
+  cursor: pointer;
+  outline: none;
+}
+.appointmentsContainer {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.active {
+  background-color: #9897f0;
+  color: white;
+}
+@media (max-width: 768px) {
+  .bgContainer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .img {
+    display: none;
+  }
+}
