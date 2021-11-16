@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.not-found-dark {
+  background-color: #000000;
+}
+.not-found-img {
+  width: 300px;
+}
+.not-found-heading-dark {
+  color: white;
+}
+.not-found-para-dark {
+  color: white;
+}
+.not-found-heading-light {
+  color: #334155;
+}
+.not-found-para-light {
+  color: #64748b;
+}

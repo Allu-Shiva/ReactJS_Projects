@@ -1,0 +1,15 @@
+.thumbnailBtn {
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+}
+.image {
+  width: 100px;
+}
+@media (max-width: 768px) {
+  .image {
+    width: 50px;
+  }
+}

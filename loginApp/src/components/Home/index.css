@@ -1,0 +1,18 @@
+/* Write your CSS here */
+body {
+  box-sizing: border-box;
+}
+* {
+  margin: 0px;
+}
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(#2b2c49, #b5b9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  text-align: center;
+}

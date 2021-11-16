@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.footerHeadingCon {
+  color: #1e293b;
+  border: 1px solid #7e858e;
+  font-weight: bold;
+  padding-left: 10px;
+  display: flex;
+}
+.f-text {
+  width: 30%;
+}
+.delBtn {
+  background-color: transparent;
+  border: 0px;
+}
+.delImg {
+  width: 50%;
+  cursor: pointer;
+  outline: none;
+}

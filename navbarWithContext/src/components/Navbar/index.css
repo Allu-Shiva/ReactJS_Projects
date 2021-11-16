@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.Navbar {
+  padding: 5px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #dcdcdc;
+}
+.Navbar-dark {
+  background-color: #333333;
+  border-bottom: 0px;
+}
+.website-logo {
+  width: 30px;
+}
+.navbar-list {
+  list-style: none;
+  padding-left: none;
+  display: flex;
+  align-items: center;
+}
+.list-item {
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+.list-item-light {
+  color: #171f46;
+}
+.list-item-dark {
+  color: white;
+}
+.theme-btn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.theme-icon {
+  width: 30px;
+}

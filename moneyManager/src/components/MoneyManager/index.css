@@ -1,0 +1,120 @@
+/* Write your CSS here */
+.bgContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  font-family: 'Roboto';
+}
+.welcomeContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png ');
+  background-size: cover;
+  padding: 30px;
+  padding-left: 55px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+.header-heading {
+  color: #475569;
+}
+.spanText {
+  color: #0b69ff;
+  font-weight: bold;
+}
+.moneyContainer {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #7e858e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+}
+.mini-heading {
+  color: #475569;
+  font-size: 20px;
+}
+.labelText {
+  color: #7e858e;
+  font-size: 15px;
+}
+.input {
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  outline: none;
+}
+.selectInput {
+  background-color: transparent;
+  align-self: flex-start;
+}
+
+.addBtn {
+  border: 0px;
+  background-color: #0b69ff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.statsContainer {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.historyContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #7e858e;
+  padding: 20px;
+  border-radius: 10px;
+}
+.footerHeadingCon {
+  color: #1e293b;
+  border: 1px solid #7e858e;
+  font-weight: bold;
+  padding-left: 10px;
+  display: flex;
+}
+.f-text {
+  width: 30%;
+}
+.historyListContainer {
+  list-style: none;
+  padding-left: 0px;
+}
+@media (max-width: 768px) {
+  .welcomeContainer {
+    width: 80%;
+  }
+  .moneyContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .statsContainer {
+    flex-direction: column;
+  }
+  .historyContainer {
+    width: 70%;
+  }
+  .form {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .input {
+    width: 100%;
+  }
+  .f-text {
+    width: 100%;
+  }
+}
