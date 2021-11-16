@@ -1,0 +1,15 @@
+/* Write your CSS code here */
+.notFoundContainer {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textContent {
+  color: #551e53;
+}
+@media (max-width: 768px) {
+  .img {
+    width: 150px;
+  }
+}
