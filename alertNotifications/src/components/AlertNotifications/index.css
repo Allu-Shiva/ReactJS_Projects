@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.notifications-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.main-heading {
+  color: #0f172a;
+  align-self: center;
+}
+.list-container {
+  list-style: none;
+  padding-left: 0px;
+}

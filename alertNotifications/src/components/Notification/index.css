@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  border-radius: 5px;
+  /* align-items: center; */
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .list-item {
+    width: 90%;
+  }
+}
+.content-container {
+  margin-top: 0px;
+  /* border: 3px solid red; */
+  margin-right: auto;
+}
+.title-container {
+  display: flex;
+  align-items: center;
+}
+.mini-heading {
+  margin-top: 0px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.close-icon {
+  align-self: center;
+  margin: 0px;
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+}
+.icon {
+  margin-right: 10px;
+  margin-top: 3px;
+  align-self: flex-start;
+  font-size: 26px;
+}
+.description {
+  color: #475569;
+}
+.success-icon {
+  color: #2dca73;
+  /* border: 3px solid green; */
+}
+.success-text {
+  color: #2dca73;
+}
+.error-icon {
+  color: #ff0b37;
+}
+.error-text {
+  color: #ff0b37;
+}
+.warning-icon {
+  color: #ffb800;
+}
+.warning-text {
+  color: #ffb800;
+}
+.info-icon {
+  color: #0f81e0;
+}
+.info-text {
+  color: #0f81e0;
+}
