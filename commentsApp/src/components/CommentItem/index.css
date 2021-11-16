@@ -1,0 +1,105 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  flex-direction: row;
+}
+.contentCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cmtHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.initialContainer {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  font-weight: bold;
+  color: white;
+}
+.name {
+  color: #334155;
+  font-weight: bold;
+}
+.time {
+  margin-left: 20px;
+  color: #94a3b8;
+}
+.cmt {
+  margin-top: 0px;
+  color: #64748b;
+  overflow: auto;
+  width: 70vw;
+}
+
+.likeCont {
+  display: flex;
+  align-items: center;
+}
+.likeText {
+  margin-left: 10px;
+  color: #7e858e;
+}
+.liked {
+  color: #0ea5e9;
+  font-weight: bold;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.delCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.like-btn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+  color: #7e858e;
+}
+.li {
+  border-bottom: 1px solid #94a3b8;
+  width: 80vw;
+}

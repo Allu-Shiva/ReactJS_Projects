@@ -1,0 +1,84 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.bgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  font-family: 'Roboto';
+}
+.main-heading {
+  color: #1e293b;
+}
+.heading {
+  color: #475569;
+}
+.userInput {
+  padding: 10px;
+  border: 1px solid #dee0e3;
+  border-radius: 5px;
+  margin: 5px;
+  margin-left: 0px;
+  outline: none;
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  width: 30vw;
+}
+.inputContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.btn {
+  background-color: #0284c7;
+  color: white;
+  padding: 5px;
+  border: 0px;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.hr-line {
+  width: 100%;
+  border: 1px solid #cbd2d9;
+}
+.commentCountContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cmtCount {
+  background-color: #0284c7;
+  height: 22px;
+  width: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  margin-right: 5px;
+  color: white;
+}
+.cmtContainer {
+  list-style: none;
+  padding-left: 0px;
+}
+@media (max-width: 768px) {
+  .commentImg {
+    width: 30vw;
+  }
+  .userInput {
+    width: 50vw;
+  }
+}
