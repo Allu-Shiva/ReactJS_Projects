@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.CryptocurrenciesList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.main-heading {
+  color: #00e7ff;
+}
+.listContainer {
+  list-style: none;
+  padding-left: 0px;
+  border: 1px solid #00e7ff;
+  border-radius: 10px;
+  width: 80%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 40px;
+  background-color: #092e33;
+}
+.headerText {
+  color: white;
+  margin-right: 40px;
+  width: 100px;
+  text-align: center;
+}
+.value {
+  display: flex;
+}
+.coinType {
+  margin-left: 40px;
+}
