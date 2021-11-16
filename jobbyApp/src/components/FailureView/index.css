@@ -1,0 +1,26 @@
+.jobs-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2;
+  margin-top: 30px;
+}
+.jobs-card-failure-view-img {
+  width: 50%;
+}
+.failure-text {
+  color: #7e858e;
+}
+.jobs-profile-retry-btn {
+  background-color: #4f46e5;
+  color: white;
+  border: 0px;
+  width: 100px;
+  border-radius: 5px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 10px;
+}

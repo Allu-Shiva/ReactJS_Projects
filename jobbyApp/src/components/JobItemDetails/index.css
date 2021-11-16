@@ -1,0 +1,122 @@
+.jobItemDetails-container {
+  background-color: #000000;
+  min-height: 100vh;
+}
+.jobItemDetails-card {
+  background-color: #202020;
+  border-radius: 10px;
+  width: 95%;
+  margin: auto;
+  margin-top: 50px;
+  color: #f1f5f9;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+.description-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.anchor-container {
+  color: #6366f1;
+  display: flex;
+  align-items: center;
+}
+.anchor-element {
+  text-decoration: none;
+}
+.anchor-text {
+  color: #6366f1;
+  margin-right: 5px;
+}
+.mini-heading {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #f1f5f9;
+}
+.skills-container {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skills-img {
+  width: 40px;
+  margin-right: 5px;
+}
+.skills-flex-container {
+  display: flex;
+  align-items: center;
+  /* border: 3px solid red; */
+  width: 400px;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .skills-flex-container {
+    width: 150px;
+  }
+}
+.life-at-company-container {
+  margin-top: 40px;
+}
+.lac-content-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.lac-description {
+  /* width: 70%; */
+  line-height: 1.5;
+  margin-right: 10px;
+}
+@media (max-width: 768px) {
+  .lac-content-container {
+    flex-direction: column;
+  }
+  .lac-description {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+.similarJobs {
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+}
+.similarJobs-container {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 20px;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.similarJobs-card {
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin-right: 20px;
+  color: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+}
+.similarJobs-description {
+  margin-top: 15px;
+  line-height: 1.5;
+}
+@media (max-width: 768px) {
+  .similarJobs-card {
+    margin: auto;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+}

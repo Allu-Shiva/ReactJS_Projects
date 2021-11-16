@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.configurationController {
+  background-color: #475569;
+  padding-left: 100px;
+  color: #f1f5f9;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.checkbox-container {
+  list-style: none;
+  padding-left: 0px;
+}
+.checkbox-item {
+  margin-top: 10px;
+}

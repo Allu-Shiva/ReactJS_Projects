@@ -1,0 +1,67 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+}
+body {
+  box-sizing: border-box;
+}
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  color: white;
+  padding: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+  height: 100vh;
+}
+.clock-image {
+  width: 500px;
+}
+.userInput {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: transparent;
+  outline: none;
+  color: #e4e7eb;
+  width: 100%;
+}
+.container-1 {
+  order: 1;
+}
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  order: 0;
+  width: 300px;
+}
+.para {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.countContainer {
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #219a6f;
+  font-weight: bold;
+  align-self: flex-start;
+}
+@media (max-width: 768px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+  }
+  .clock-image {
+    width: 330px;
+  }
+  .container-1 {
+    order: 0;
+  }
+}

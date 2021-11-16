@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.body {
+  height: 300px;
+  width: 90%;
+  margin: auto;
+  /* border: 3px solid orange; */
+  display: flex;
+  justify-content: space-between;
+}
+.left-navbar {
+  background-color: #cbd5e1;
+  padding: 10px;
+  margin-right: 5px;
+  flex-shrink: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.right-navbar {
+  background-color: #cbd5e1;
+  padding: 10px;
+  flex-shrink: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.title {
+  color: #64748b;
+  font-weight: bold;
+}
+.navbar-list-container {
+  list-style: none;
+}
+.content {
+  background-color: #e2e8f0;
+  padding: 10px;
+  margin-right: 5px;
+  flex-grow: 1;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.box {
+  border: 3px solid #64748b;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  color: #475569;
+}

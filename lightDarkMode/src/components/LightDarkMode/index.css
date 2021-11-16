@@ -1,0 +1,35 @@
+/* Write your CSS here */
+body {
+  box-sizing: border-box;
+}
+* {
+  margin: 0px;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.card {
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+.card-dark {
+  background-color: #000000;
+  color: white;
+}
+.btn {
+  width: 40%;
+  height: 30px;
+  margin-top: 10px;
+  padding: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.card-light {
+  background-color: white;
+  border: 1px solid black;
+}
