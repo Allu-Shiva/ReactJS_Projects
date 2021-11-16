@@ -1,0 +1,20 @@
+/* Write your CSS code here */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-pic {
+  width: 100px;
+}
+
+.userName {
+  color: #12022f;
+  font-weight: bold;
+  font-size: 22px;
+}
+.role {
+  color: #616e7c;
+  margin-top: 5px;
+}

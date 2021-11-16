@@ -1,0 +1,14 @@
+/* Write your CSS code here */
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.date {
+  color: #9aa5b1;
+}
+.description {
+  color: #9aa5b1;
+}
+.hr-line {
+  border-color: #9aa5b1;
+}
