@@ -1,0 +1,76 @@
+.filters-group-container {
+  margin-top: 16px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f5f9;
+  padding: 5px;
+  border-radius: 5px;
+}
+.search-field {
+  margin-right: 10px;
+  width: 100%;
+  outline: none;
+  border: 0px;
+  padding: 5px;
+  background-color: transparent;
+}
+.category-text {
+  color: #12022f;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.filters-group {
+  list-style: none;
+  padding-left: 0px;
+}
+.category-item {
+  margin-top: 20px;
+  color: #64748b;
+}
+.star-item {
+  display: flex;
+  align-items: center;
+}
+.stars {
+  width: 150px;
+  margin-right: 20px;
+}
+.star-text {
+  color: #64748b;
+}
+.starBtn {
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  color: #64748b;
+}
+.clearBtn {
+  padding: 10px;
+  border: 1px solid #0967d2;
+  color: #0967d2;
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+.active {
+  color: #0967d2;
+  font-weight: bold;
+}
