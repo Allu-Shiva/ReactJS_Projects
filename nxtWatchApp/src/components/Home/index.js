@@ -182,22 +182,27 @@ class Home extends Component {
               const {isThemeLight} = value
               return (
                 <Mainbar data-testid="home" isThemeLight={isThemeLight}>
-                  <Banner
-                    shouldDisplayBanner={shouldDisplayBanner}
-                    data-testid="banner"
-                  >
-                    <FlexContainer>
-                      <Thumbnail
-                        src="https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png"
-                        alt="nxt watch logo"
-                      />
-                      <Text>Buy Nxt Watch Premium prepaid plans with UPI</Text>
-                      <FakeButton type="button">GET IT NOW</FakeButton>
-                    </FlexContainer>
-                    <CloseBtn data-testid="close" onClick={this.closeBanner}>
-                      <GrFormClose />
-                    </CloseBtn>
-                  </Banner>
+                  {shouldDisplayBanner && (
+                    <Banner data-testid="banner">
+                      <FlexContainer>
+                        <Thumbnail
+                          src="https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png"
+                          alt="nxt watch logo"
+                        />
+                        <Text>
+                          Buy Nxt Watch Premium prepaid plans with UPI
+                        </Text>
+                        <FakeButton type="button">GET IT NOW</FakeButton>
+                      </FlexContainer>
+                      <CloseBtn
+                        data-testid="close"
+                        onClick={this.closeBanner}
+                        type="button"
+                      >
+                        <GrFormClose />
+                      </CloseBtn>
+                    </Banner>
+                  )}
                   <VideosContainer>
                     <SearchContainer>
                       <SearchInput

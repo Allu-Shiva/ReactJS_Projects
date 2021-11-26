@@ -112,7 +112,13 @@ export const DescriptionContainer = styled.div`
     height: 100%;
   }
 `
-export const VIDDescText = styled(VIDText)`
+export const VIDDescText = styled.p`
+  color: ${props => {
+    if (props.isThemeLight) {
+      return props.titleText ? '#1e293b' : ' #7e858e'
+    }
+    return props.titleText || props.desc ? '#ffffff' : '#64748b'
+  }};
   font-size: ${props => (props.titleText || props.desc ? '15px' : '13px')};
   font-weight: 401;
   margin-top: 0px;

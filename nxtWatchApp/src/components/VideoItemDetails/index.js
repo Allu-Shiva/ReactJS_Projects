@@ -160,7 +160,7 @@ class VideoItemDetails extends Component {
               activeStatus={likeStatus}
             >
               <BiLike className="btn-icon" />
-              <p>Like</p>
+              Like
             </Btn>
             <Btn
               type="button"
@@ -169,7 +169,7 @@ class VideoItemDetails extends Component {
               activeStatus={dislikeStatus}
             >
               <BiDislike className="btn-icon" />
-              <p>Dislike</p>
+              Dislike
             </Btn>
             <Btn
               type="button"
@@ -178,7 +178,7 @@ class VideoItemDetails extends Component {
               activeStatus={savedStatus}
             >
               <BiListPlus className="btn-icon" />
-              <p>{savedStatus ? 'Saved' : 'Save'}</p>
+              {savedStatus ? 'Saved' : 'Save'}
             </Btn>
           </StatsContainer>
         </VIDFlexContainer>

@@ -53,94 +53,87 @@ const HamburgerMenu = props => {
                   <IoClose />
                 </ModalCloseBtn>
                 <SectionList>
-                  <li key="home">
+                  <ListButton
+                    key="home"
+                    activeTab={activeTab === 'HOME'}
+                    isThemeLight={isThemeLight}
+                  >
                     <Link to="/" className="link">
-                      <ListButton
-                        type="button"
+                      <Icon
                         activeTab={activeTab === 'HOME'}
                         isThemeLight={isThemeLight}
                       >
-                        <Icon
-                          activeTab={activeTab === 'HOME'}
-                          isThemeLight={isThemeLight}
-                        >
-                          <AiFillHome />
-                        </Icon>
-                        <Text
-                          activeTab={activeTab === 'HOME'}
-                          isThemeLight={isThemeLight}
-                        >
-                          Home
-                        </Text>
-                      </ListButton>
+                        <AiFillHome />
+                      </Icon>
+                      <Text
+                        activeTab={activeTab === 'HOME'}
+                        isThemeLight={isThemeLight}
+                      >
+                        Home
+                      </Text>
                     </Link>
-                  </li>
-                  <li key="trending">
+                  </ListButton>
+                  <ListButton
+                    key="trending"
+                    activeTab={activeTab === 'TRENDING'}
+                    isThemeLight={isThemeLight}
+                  >
                     <Link to="/trending" className="link">
-                      <ListButton
-                        type="button"
+                      <Icon
                         activeTab={activeTab === 'TRENDING'}
                         isThemeLight={isThemeLight}
                       >
-                        <Icon
-                          activeTab={activeTab === 'TRENDING'}
-                          isThemeLight={isThemeLight}
-                        >
-                          <HiFire />
-                        </Icon>
-                        <Text
-                          activeTab={activeTab === 'TRENDING'}
-                          isThemeLight={isThemeLight}
-                        >
-                          Trending
-                        </Text>
-                      </ListButton>
+                        <HiFire />
+                      </Icon>
+                      <Text
+                        activeTab={activeTab === 'TRENDING'}
+                        isThemeLight={isThemeLight}
+                      >
+                        Trending
+                      </Text>
                     </Link>
-                  </li>
-                  <li key="gaming">
-                    <Link to="/gaming" className="link">
-                      <ListButton
-                        type="button"
+                  </ListButton>
+                  <ListButton key="gaming">
+                    <Link
+                      to="/gaming"
+                      className="link"
+                      activeTab={activeTab === 'GAMING'}
+                      isThemeLight={isThemeLight}
+                    >
+                      <Icon
                         activeTab={activeTab === 'GAMING'}
                         isThemeLight={isThemeLight}
                       >
-                        <Icon
-                          activeTab={activeTab === 'GAMING'}
-                          isThemeLight={isThemeLight}
-                        >
-                          <SiYoutubegaming />
-                        </Icon>
-                        <Text
-                          activeTab={activeTab === 'GAMING'}
-                          isThemeLight={isThemeLight}
-                        >
-                          Gaming
-                        </Text>
-                      </ListButton>
+                        <SiYoutubegaming />
+                      </Icon>
+                      <Text
+                        activeTab={activeTab === 'GAMING'}
+                        isThemeLight={isThemeLight}
+                      >
+                        Gaming
+                      </Text>
                     </Link>
-                  </li>
-                  <li key="saved-videos">
+                  </ListButton>
+                  <ListButton
+                    key="saved-videos"
+                    activeTab={activeTab === 'SAVED VIDEOS'}
+                    isThemeLight={isThemeLight}
+                  >
                     <Link to="/saved-videos" className="link">
-                      <ListButton
-                        type="button"
+                      <Icon
                         activeTab={activeTab === 'SAVED VIDEOS'}
                         isThemeLight={isThemeLight}
                       >
-                        <Icon
-                          activeTab={activeTab === 'SAVED VIDEOS'}
-                          isThemeLight={isThemeLight}
-                        >
-                          <BiListPlus />
-                        </Icon>
-                        <Text
-                          activeTab={activeTab === 'SAVED VIDEOS'}
-                          isThemeLight={isThemeLight}
-                        >
-                          Saved videos
-                        </Text>
-                      </ListButton>
+                        <BiListPlus />
+                      </Icon>
+                      <Text
+                        activeTab={activeTab === 'SAVED VIDEOS'}
+                        isThemeLight={isThemeLight}
+                      >
+                        Saved videos
+                      </Text>
                     </Link>
-                  </li>
+                  </ListButton>
                 </SectionList>
               </HamPopup>
             )}

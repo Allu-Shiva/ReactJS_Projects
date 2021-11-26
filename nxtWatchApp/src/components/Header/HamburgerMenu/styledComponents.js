@@ -32,7 +32,7 @@ export const SectionList = styled.ul`
   list-style: none;
   padding-left: 0px;
 `
-export const ListButton = styled.button`
+export const ListButton = styled.li`
   display: flex;
   align-items: center;
   background-color: ${props => {

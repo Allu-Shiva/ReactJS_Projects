@@ -38,9 +38,9 @@ const TrendingVideoItem = props => {
                   </TrendText>
                   <TrendText md>{name}</TrendText>
                   <TrendFlexContainer card>
-                    <TrendText sm card>
+                    {/* <TrendText sm card>
                       {name}
-                    </TrendText>
+                    </TrendText> */}
                     <BsDot
                       className={`${
                         isThemeLight

@@ -17,9 +17,7 @@ export const SectionList = styled.ul`
   list-style: none;
   padding-left: 0px;
 `
-export const ListButton = styled.button`
-  display: flex;
-  align-items: center;
+export const ListButton = styled.li`
   background-color: ${props => {
     if (props.isThemeLight) {
       return props.activeTab ? '#f1f1f1' : 'transparent'

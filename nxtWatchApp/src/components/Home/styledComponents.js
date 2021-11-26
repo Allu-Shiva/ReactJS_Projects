@@ -21,7 +21,8 @@ export const Banner = styled.div`
   background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
   background-size: cover;
   padding: 20px;
-  display: ${props => (props.shouldDisplayBanner ? 'flex' : 'none')};
+  //   display: ${props => (props.shouldDisplayBanner ? 'flex' : 'none')};
+  display: flex;
   justify-content: space-between;
   align-items: center;
 `
@@ -38,7 +39,7 @@ export const FlexContainer = styled.div`
   display: flex;
   flex-direction: column;
 `
-export const FakeButton = styled.div`
+export const FakeButton = styled.button`
   border: 1px solid #212121;
   align-self: flex-start;
   padding: 10px;
